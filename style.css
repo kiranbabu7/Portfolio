@@ -57,6 +57,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.hero h2 {
+  color: black;
+}
 .hero-img img {
   flex: 1 1 30rem;
   width: 60rem;
@@ -82,8 +85,13 @@ header {
   justify-content: space-around;
   flex-direction: column;
   background: linear-gradient(90deg, #1cb5e0 0%, #8b97ff 100%);
-  box-shadow: 7px 8px 25px 2px rgb(136, 136, 136);
+  box-shadow: 7px 8px 25px 2px rgb(131, 131, 131);
   margin: 3rem;
+  border-radius: 15px;
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 3px rgb(197, 197, 197);
 }
 .main span {
   margin: 2rem;
