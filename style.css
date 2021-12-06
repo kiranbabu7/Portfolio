@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +10,7 @@ html {
 }
 body {
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 a {
   text-decoration: none;
@@ -80,7 +81,8 @@ header {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background-color: rgb(213, 241, 241);
+  background: linear-gradient(90deg, #1cb5e0 0%, #8b97ff 100%);
+  box-shadow: 7px 8px 25px 2px rgb(136, 136, 136);
   margin: 3rem;
 }
 .main span {
@@ -89,14 +91,25 @@ header {
 .main a {
   padding: 1rem 2rem;
   margin: 1rem;
-  background-color: rgb(141, 179, 236);
+  background-color: rgb(194, 204, 248);
+  color: rgb(0, 0, 0);
   border-radius: 5px;
   text-decoration: none;
+  border: 2px solid rgb(54, 116, 209);
+}
+.main a:hover {
+  background-color: rgb(153, 194, 255);
+  border: 3px solid rgb(255, 255, 255);
 }
 .main #source {
   background-color: white;
   color: rgb(54, 116, 209);
   border: 1px solid rgb(54, 116, 209);
+}
+.main #source:hover {
+  background-color: rgb(54, 116, 209);
+  color: white;
+  border: 3px solid white;
 }
 footer {
   min-height: 10vh;
