@@ -61,6 +61,12 @@ header {
   width: 60rem;
   margin-left: 15rem;
 }
+.intro-social {
+  margin: 3rem 0;
+}
+.intro-social a {
+  padding: 0 0 0 1rem;
+}
 .main {
   display: flex;
   flex-direction: column;
